@@ -1,5 +1,5 @@
 # logements_vacants
-Analyses sur les logements vacants en France, en utilisant les données de https://ecologie.data.gouv.fr/datasets/61816c6e23197bb34835228e
+Analyses sur les logements vacants en France, à l'aide de Tableau, en utilisant les données de https://ecologie.data.gouv.fr/datasets/61816c6e23197bb34835228e
 
 On se concentre sur le nombre de logements vacants en 2020.
 
