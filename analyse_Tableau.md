@@ -31,8 +31,33 @@ On affiche la valeur maximale de logements vacants dans une commune, pour chaque
 <img width="2114" height="1382" alt="Feuille 12 attention paris arrondissement distincts" src="https://github.com/user-attachments/assets/4aa8f1d9-f324-4a31-af86-c7daa8d5b580" />
 Il faut faire attention au cas particulier de Paris qui, dans la base de données de ecologie.data.gouv.fr, est présente via ses arrondissements ; ici 13550 correspond au nombre de logements vacants dans le 15ème arrondissement de Paris ; les arrondissements de Paris sont considérés comme des communes.
 
-### Taux de vacance
+### Nombre de logements vacants vs nombre de logements total
+On trace le nombre de logements vacants en fonction du nombre de logement total, par commune.
+<img width="2152" height="1254" alt="image" src="https://github.com/user-attachments/assets/a1cff36f-5307-459e-81da-febdaf36308d" />
+
+On voit que les deux sont très corrélés. En effet, le coefficient $R^2$ de la régression linéaire est de $0.94$.
+Ce résultat était attendu étant donné que plus la ville a de logements plus il y a potentiellement de logements vacants.
+
+Il est plus pertinent d'étudier le taux de vacance, c'est-à-dire la proportion de logements vacants au sein d'une commune, afin de comparer les communes entre elles peu importe leur taille.
+
+Il est intéressant d'étudier le nombre de logements vacants en absolu car l'objectif est que les logements soient en majorité sur le territoire français d'avantage occupés afin de par exemple réduire le besoin de construire des logements neufs.
+
+Il est également intéressant d'étudier le taux de vacance à l'échelle d'une commune car c'est lui qui reflète la "vie" d'une commune, son animation.
+
+### Villes les plus vacantes
 On peut calculer le taux de vacance par commune en créant un nouveau champ calculé à partir du nombre de logements vacants et du nombre de logements total par commune. On trie sur le taux de vacance et on filtre pour ne garder que les plus grands taux de vacance.
 <img width="1686" height="1348" alt="Feuille 3 (2)" src="https://github.com/user-attachments/assets/aeb8ace0-3e9b-4ee4-a77d-180151fafd3a" />
 
+La ville la plus vacante est Valouse avec près de 7 logements sur 10 vacants.
+
+### Influence de la taille des communes sur leur vacance
+On trace le taux de vacance en fonction du nombre de logements total, par commune.
+<img width="2152" height="1254" alt="image" src="https://github.com/user-attachments/assets/da43e260-c6dd-43b3-b3fe-01701c212d56" />
+
+On remarque un pic proche de 0 ce qui signifie que les communes les plus vacantes sont aussi celles avec le moins de logements (donc petites).
+
+### Comparaison de la vacance des régions
+On compare la vacance des région avec un diagramme en boîtes à moustache du taux de vacance de chaque commune, par région, trié par la moyenne du taux de vacance par région.
+<img width="1566" height="1254" alt="image" src="https://github.com/user-attachments/assets/843ffe2a-18f8-4ae4-afac-89064f237d8e" />
+On voit que les îles (Mayotte, Guadeloupe, Corse, Guyane, Martinique) ont en moyenne les villes avec les plus hauts taux de vacance.
 
