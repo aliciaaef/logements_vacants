@@ -61,3 +61,13 @@ On compare la vacance des région avec un diagramme en boîtes à moustache du t
 <img width="1566" height="1254" alt="image" src="https://github.com/user-attachments/assets/843ffe2a-18f8-4ae4-afac-89064f237d8e" />
 On voit que les îles (Mayotte, Guadeloupe, Corse, Guyane, Martinique) ont en moyenne les villes avec les plus hauts taux de vacance.
 
+### Effet de la localisation
+On peut tracer le taux de vacance en fonction de la latitude et de la longitude :
+
+<img width="2152" height="1254" alt="image" src="https://github.com/user-attachments/assets/10310e82-f10e-4a1c-8f17-6c0b863774f1" />
+
+On remarque que communes les plus vacantes sont situées principalement vers les basses latitudes c'est-à-dire vers le Sud ce qui correspond aux Alpes, aux Pyrénées et à la Corse.
+
+<img width="2152" height="1254" alt="image" src="https://github.com/user-attachments/assets/3c130e72-4416-45a7-a6a8-13baa099cb92" />
+
+On voit que les communes les plus vacantes sont situées principalement vers les grandes longitudes, c'est-à-dire vers l'Est, ce qui correspond une nouvelle fois à la Corse et aux Alpes.
