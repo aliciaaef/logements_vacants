@@ -81,7 +81,7 @@ On remarque que communes les plus vacantes sont situées principalement vers les
 On voit que les communes les plus vacantes sont situées principalement vers les grandes longitudes, c'est-à-dire vers l'Est, ce qui correspond une nouvelle fois à la Corse et aux Alpes.
 
 ### Tableau de bord dynamique
-On peut créer un tableau de bord dynamique qui affiche une carte, un histogramme et un diagramme en boîte à moustaches. En sélectionnant une région dans le diagramme en boîte à moustaches, la tableau de bord affiche uniquement les données de cette région sur la carte et sur l'histogramme.
+On peut créer un tableau de bord dynamique qui affiche une carte, un histogramme et un diagramme en boîte à moustaches du taux de vacance de chaque commune. En sélectionnant une région dans le diagramme en boîte à moustaches, la tableau de bord affiche uniquement les données de cette région sur la carte et sur l'histogramme.
 
 Pour la région Nouvelle-Aquitaine :
 
