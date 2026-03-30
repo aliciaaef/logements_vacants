@@ -91,3 +91,7 @@ Pour la région Bourgogne-Franche-Comté :
 
 <img width="800" alt="image" src="https://github.com/user-attachments/assets/20895431-4606-439b-aa5d-ce5d5f71d493" />
 
+On peut se demander pourquoi si peu de communes apparaissent sur les cartes et la raison est qu'il y a beaucoup de données manquantes sur le nombre total de logements par commune, qui intervient dans le calcul du taux de vacance de chaque commune.
+
+Ainsi, il faut prendre en compte que les résultats présentés précédemment sur le taux de vacance ne sont pas entièrement représentatifs de la situation sur le territoire français.
+
