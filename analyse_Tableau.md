@@ -74,11 +74,11 @@ On peut tracer le taux de vacance en fonction de la latitude et de la longitude 
 
 <img height="500" alt="image" src="https://github.com/user-attachments/assets/10310e82-f10e-4a1c-8f17-6c0b863774f1" />
 
-On remarque que communes les plus vacantes sont situées principalement vers les basses latitudes c'est-à-dire vers le Sud ce qui correspond aux Alpes, aux Pyrénées et à la Corse.
+On remarque qu'il n'y a pas de véritable corrélation entre le taux de vacance et la latitude mais on voit que communes les plus vacantes sont situées principalement vers les basses latitudes c'est-à-dire vers le Sud ce qui correspond aux Alpes, aux Pyrénées et à la Corse.
 
 <img height="500" alt="image" src="https://github.com/user-attachments/assets/3c130e72-4416-45a7-a6a8-13baa099cb92" />
 
-On voit que les communes les plus vacantes sont situées principalement vers les grandes longitudes, c'est-à-dire vers l'Est, ce qui correspond une nouvelle fois à la Corse et aux Alpes.
+On remarque qu'il n'y a pas de véritable corrélation entre le taux de vacance et la longitude mais on voit que les communes les plus vacantes sont situées principalement vers les grandes longitudes, c'est-à-dire vers l'Est, ce qui correspond une nouvelle fois à la Corse et aux Alpes.
 
 ### Tableau de bord dynamique
 On peut créer un tableau de bord dynamique qui affiche une carte, un histogramme et un diagramme en boîte à moustaches du taux de vacance de chaque commune. En sélectionnant une région dans le diagramme en boîte à moustaches, la tableau de bord affiche uniquement les données de cette région sur la carte et sur l'histogramme.
