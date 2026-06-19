@@ -60,10 +60,10 @@ On trace le taux de vacance en fonction du nombre de logements total, par commun
 
 <img height="500" alt="image" src="https://github.com/user-attachments/assets/da43e260-c6dd-43b3-b3fe-01701c212d56" />
 
-On remarque un pic proche de 0 ce qui signifie que les communes les plus vacantes sont aussi celles avec le moins de logements (donc petites).
+On remarque un pic proche de 0 ce qui signifie que les communes les plus vacantes sont aussi celles avec le moins de logements (donc les plus petites).
 
 ### Comparaison de la vacance des régions
-On compare la vacance des région avec un diagramme en boîtes à moustache du taux de vacance de chaque commune, par région, trié par la moyenne du taux de vacance par région.
+On compare la vacance des régions avec un diagramme en boîtes à moustache du taux de vacance de chaque commune, par région, trié par la moyenne du taux de vacance par région.
 
 <img height="500" alt="image" src="https://github.com/user-attachments/assets/843ffe2a-18f8-4ae4-afac-89064f237d8e" />
 
